@@ -1,0 +1,81 @@
+<html>
+<body>
+<h1>Image Hover Shadow Effects</h1>
+<style>
+.col 
+{
+  float: left;
+  width: 25%;
+  text-align: center;
+
+}
+img:hover
+{
+ box-shadow: 10px 10px 15px 5px #888888;
+}
+.col div
+{
+	padding:10px;
+
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<div>
+<ul>
+<li><a href="#Four">Fourth</a></li>
+<li><a href="#Five">Fifth</a></li>
+<li><a href="#Six">Sixth</a></li>
+</ul>
+</div>
+
+<div class="row">
+<div class="col">
+<div>
+<p>This is First Div</p>
+<img src="img/2.png" alt="">
+</div>
+</div>
+
+<div class="col">
+<div>
+<p>This is Second Div</p>
+<img src="img/2.png" alt="">
+</div>
+</div>
+
+<div class="col">
+<div>
+<p>This is Third Div</p>
+<img src="img/2.png" alt="">
+</div>
+</div>
+
+<div class="col">
+<div id="Four">
+<p>This is Fourth Div</p>
+<img src="img/2.png" alt="">
+</div>
+</div>
+
+<div class="col">
+<div id="Five">
+<p>This is Fifth Div</p>
+<img src="img/2.png" alt="">
+</div>
+</div>
+
+<div class="col">
+<div id="Six">
+<p>This is Sixth Div</p>
+<img src="img/2.png" alt="">
+</div>
+</div>
+</div>
+
+</body>
+</html>
